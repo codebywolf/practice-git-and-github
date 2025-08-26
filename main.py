@@ -1,7 +1,8 @@
-import os
+#now we are doing something else
+a = 5
+b = 6
 
-print(os.access())
-print(os.add_dll_directory())
+def add(a, b):
+    return a+b
 
-print(os.close())
-print(os.cpu_count())
+print(add(56, 554))
